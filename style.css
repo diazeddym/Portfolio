@@ -381,3 +381,43 @@ article .icon {
   gap: 1rem;
   justify-content: center;
 }
+
+/* Contact me */
+
+#contact-me {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-bottom {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 2rem;
+  gap: 4rem;
+}
+
+.contact-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-bottom img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.contact-bottom p {
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 0.5rem;
+}
