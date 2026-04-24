@@ -385,18 +385,23 @@ article .icon {
 /* Contact me */
 
 #contact-me {
+  flex-direction: column;
   margin-top: 2rem;
+  padding-top: 10rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
 .contact-bottom {
+  align-self: center;
+  justify-self: center;
+  max-width: auto;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-radius: 2rem;
   gap: 4rem;
@@ -420,4 +425,14 @@ article .icon {
   align-items: center;
   color: black;
   gap: 0.5rem;
+}
+
+.footer-p {
+  text-align: center;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.footer-linkedin {
+  cursor: pointer;
 }
